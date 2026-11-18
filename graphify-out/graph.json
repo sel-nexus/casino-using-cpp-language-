@@ -19,12 +19,48 @@
       "_origin": "ast"
     },
     {
+      "id": "changelog_python_migration",
+      "label": "Python migration",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "changelog_added_and_changed",
+      "label": "Added and changed",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "changelog_approved_behavior_fixes",
+      "label": "Approved behavior fixes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "changelog_breaking_changes_and_migration_notes",
+      "label": "Breaking changes and migration notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
       "id": "changelog_test_43",
       "label": "test 43",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "CHANGELOG.md",
-      "source_location": "L3",
+      "source_location": "L22",
       "_origin": "ast"
     },
     {
@@ -33,7 +69,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "CHANGELOG.md",
-      "source_location": "L5",
+      "source_location": "L24",
       "_origin": "ast"
     },
     {
@@ -42,7 +78,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "CHANGELOG.md",
-      "source_location": "L10",
+      "source_location": "L29",
       "_origin": "ast"
     },
     {
@@ -51,7 +87,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "CHANGELOG.md",
-      "source_location": "L14",
+      "source_location": "L33",
       "_origin": "ast"
     },
     {
@@ -60,7 +96,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "CHANGELOG.md",
-      "source_location": "L19",
+      "source_location": "L38",
       "_origin": "ast"
     },
     {
@@ -433,192 +469,6 @@
       "source_file": "casino/game.py",
       "source_location": "L81",
       "_origin": "ast"
-    },
-    {
-      "id": "main_1",
-      "label": "main (1).cpp",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0
-    },
-    {
-      "id": "main_1_roundoutcome",
-      "label": "RoundOutcome",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L12",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_roundoutcome_won",
-      "label": "won",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L13",
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_roundoutcome_secretnumber",
-      "label": "secretNumber",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L14",
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_roundoutcome_balancechange",
-      "label": "balanceChange",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L15",
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_roundoutcome_endingbalance",
-      "label": "endingBalance",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L16",
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_calculatewinnings",
-      "label": "calculateWinnings()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L19",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_resolveround",
-      "label": "resolveRound()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L23",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_cancontinuewithbalance",
-      "label": "canContinueWithBalance()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L32",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_parseinteger",
-      "label": "parseInteger()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L36",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_cpp_string",
-      "label": "string",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_promptforinteger",
-      "label": "promptForInteger()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L42",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_promptfordeposit",
-      "label": "promptForDeposit()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L57",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_promptforbet",
-      "label": "promptForBet()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L72",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_promptforguess",
-      "label": "promptForGuess()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L93",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_prompttocontinue",
-      "label": "promptToContinue()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L108",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_generatesecretnumber",
-      "label": "generateSecretNumber()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L128",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "mt19937",
-      "label": "mt19937",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_rules",
-      "label": "rules()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L133",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0
-    },
-    {
-      "id": "main_1_playgame",
-      "label": "playGame()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L144",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "main_1_main",
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "main (1).cpp",
-      "source_location": "L201",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0
     },
     {
       "id": "main",
@@ -1118,6 +968,73 @@
       "_origin": "ast"
     },
     {
+      "id": "tests_test_migration",
+      "label": "test_migration.py",
+      "file_type": "code",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_migration_test_legacy_cpp_application_and_harness_are_retired",
+      "label": "test_legacy_cpp_application_and_harness_are_retired()",
+      "file_type": "code",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_migration_test_both_python_launch_commands_are_documented",
+      "label": "test_both_python_launch_commands_are_documented()",
+      "file_type": "code",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_migration_test_migration_notes_preserve_payout_and_document_eof_fix",
+      "label": "test_migration_notes_preserve_payout_and_document_eof_fix()",
+      "file_type": "code",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_migration_rationale_1",
+      "label": "Verify the Python-only release boundary and maintainer instructions.",
+      "file_type": "rationale",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_migration_rationale_10",
+      "label": "Reject a release containing an unmigrated native implementation.",
+      "file_type": "rationale",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_migration_rationale_17",
+      "label": "Verify maintainers can find both real launch adapters.",
+      "file_type": "rationale",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_migration_rationale_26",
+      "label": "Require explicit compatibility evidence rather than silent changes.",
+      "file_type": "rationale",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
       "id": "tests_test_terminal",
       "label": "test_terminal.py",
       "file_type": "code",
@@ -1191,94 +1108,6 @@
       "source_file": "tests/test_terminal.py",
       "source_location": "L96",
       "_origin": "ast"
-    },
-    {
-      "id": "tests",
-      "label": "tests.cpp",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L1",
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_asserttrue",
-      "label": "assertTrue()",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L10",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_cpp_string",
-      "label": "string",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_testcalculatewinnings",
-      "label": "testCalculateWinnings()",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L16",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_testresolveroundwin",
-      "label": "testResolveRoundWin()",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L20",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_testresolveroundloss",
-      "label": "testResolveRoundLoss()",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L27",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_testcancontinuewithbalance",
-      "label": "testCanContinueWithBalance()",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L34",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_testparseinteger",
-      "label": "testParseInteger()",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L39",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_testgeneratesecretnumberrange",
-      "label": "testGenerateSecretNumberRange()",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L46",
-      "_callable": true,
-      "_origin": "ast"
-    },
-    {
-      "id": "tests_main",
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "tests.cpp",
-      "source_location": "L54",
-      "_callable": true,
-      "_origin": "ast"
     }
   ],
   "links": [
@@ -1294,11 +1123,51 @@
     },
     {
       "source": "changelog_changelog",
-      "target": "changelog_test_43",
+      "target": "changelog_python_migration",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "changelog_python_migration",
+      "target": "changelog_added_and_changed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "changelog_python_migration",
+      "target": "changelog_approved_behavior_fixes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "changelog_python_migration",
+      "target": "changelog_breaking_changes_and_migration_notes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "changelog_changelog",
+      "target": "changelog_test_43",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1308,7 +1177,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L5",
+      "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1318,7 +1187,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L10",
+      "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1328,7 +1197,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L14",
+      "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1338,7 +1207,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L19",
+      "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -1939,421 +1808,6 @@
       "confidence": "EXTRACTED",
       "source_file": "casino/game.py",
       "source_location": "L81",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_cpp_string",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_roundoutcome",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L12",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_roundoutcome",
-      "target": "main_1_roundoutcome_won",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L13",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_roundoutcome",
-      "target": "main_1_roundoutcome_secretnumber",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L14",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_roundoutcome",
-      "target": "main_1_roundoutcome_balancechange",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L15",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_roundoutcome",
-      "target": "main_1_roundoutcome_endingbalance",
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L16",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_calculatewinnings",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_resolveround",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L23",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_resolveround",
-      "target": "main_1_roundoutcome",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L23",
-      "weight": 1.0,
-      "context": "return_type",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_cancontinuewithbalance",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L32",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_parseinteger",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L36",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_parseinteger",
-      "target": "main_1_cpp_string",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L36",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_promptforinteger",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L42",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_promptforinteger",
-      "target": "main_1_cpp_string",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L42",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_promptfordeposit",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L57",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_promptforbet",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L72",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_promptforbet",
-      "target": "main_1_cpp_string",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L72",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_promptforguess",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L93",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_prompttocontinue",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L108",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_generatesecretnumber",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L128",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_generatesecretnumber",
-      "target": "mt19937",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L128",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_rules",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L133",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_playgame",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L144",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1",
-      "target": "main_1_main",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L201",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_resolveround",
-      "target": "main_1_calculatewinnings",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L25",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_promptforinteger",
-      "target": "main_1_parseinteger",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L49",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_promptfordeposit",
-      "target": "main_1_promptforinteger",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L59",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_promptfordeposit",
-      "target": "main_1_cancontinuewithbalance",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L64",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_promptforbet",
-      "target": "main_1_promptforinteger",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L74",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_promptforguess",
-      "target": "main_1_promptforinteger",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L95",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_playgame",
-      "target": "main_1_promptfordeposit",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L157",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_playgame",
-      "target": "main_1_cancontinuewithbalance",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L163",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_playgame",
-      "target": "main_1_promptforbet",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L164",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_playgame",
-      "target": "main_1_generatesecretnumber",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L167",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_playgame",
-      "target": "main_1_promptforguess",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L168",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_playgame",
-      "target": "main_1_resolveround",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L171",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_playgame",
-      "target": "main_1_prompttocontinue",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L189",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_main",
-      "target": "main_1_rules",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L202",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_main",
-      "target": "main_1_playgame",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L204",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3235,6 +2689,76 @@
       "_origin": "ast"
     },
     {
+      "source": "tests_test_migration",
+      "target": "tests_test_migration_test_legacy_cpp_application_and_harness_are_retired",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_migration",
+      "target": "tests_test_migration_test_both_python_launch_commands_are_documented",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_migration",
+      "target": "tests_test_migration_test_migration_notes_preserve_payout_and_document_eof_fix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_migration_rationale_1",
+      "target": "tests_test_migration",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_migration_rationale_10",
+      "target": "tests_test_migration_test_legacy_cpp_application_and_harness_are_retired",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_migration_rationale_17",
+      "target": "tests_test_migration_test_both_python_launch_commands_are_documented",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_migration_rationale_26",
+      "target": "tests_test_migration_test_migration_notes_preserve_payout_and_document_eof_fix",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_migration.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "tests_test_terminal",
       "target": "tests_test_terminal_run_terminal",
       "relation": "contains",
@@ -3356,251 +2880,6 @@
       "confidence": "EXTRACTED",
       "source_file": "tests/test_terminal.py",
       "source_location": "L96",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "main_1",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_cpp_string",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_asserttrue",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_asserttrue",
-      "target": "tests_cpp_string",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L10",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_testcalculatewinnings",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L16",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_testresolveroundwin",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_testresolveroundloss",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L27",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_testcancontinuewithbalance",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L34",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_testparseinteger",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L39",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_testgeneratesecretnumberrange",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L46",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests",
-      "target": "tests_main",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L54",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_testcalculatewinnings",
-      "target": "tests_asserttrue",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L17",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_testresolveroundwin",
-      "target": "tests_asserttrue",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L22",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_testresolveroundloss",
-      "target": "tests_asserttrue",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L29",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_testcancontinuewithbalance",
-      "target": "tests_asserttrue",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L35",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_testparseinteger",
-      "target": "tests_asserttrue",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L41",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_testgeneratesecretnumberrange",
-      "target": "tests_asserttrue",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L50",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_main",
-      "target": "tests_testcalculatewinnings",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L56",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_main",
-      "target": "tests_testresolveroundwin",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L57",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_main",
-      "target": "tests_testresolveroundloss",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L58",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_main",
-      "target": "tests_testcancontinuewithbalance",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L59",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_main",
-      "target": "tests_testparseinteger",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L60",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "tests_main",
-      "target": "tests_testgeneratesecretnumberrange",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests.cpp",
-      "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4070,50 +3349,232 @@
       "_origin": "ast"
     },
     {
-      "source": "main_1_roundoutcome",
-      "target": "main_1_resolveround",
+      "source": "casino_cli_terminal",
+      "target": "casino_cli_play_game",
       "relation": "references",
+      "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L23",
+      "source_file": "casino/cli.py",
+      "source_location": "L179",
       "weight": 1.0,
-      "context": "return_type",
       "_origin": "ast",
-      "_src": "main_1_resolveround",
-      "_tgt": "main_1_roundoutcome"
+      "_src": "casino_cli_play_game",
+      "_tgt": "casino_cli_terminal"
     },
     {
-      "source": "main_1_cpp_string",
-      "target": "main_1_promptforbet",
+      "source": "casino_cli_py_random",
+      "target": "casino_cli_main",
       "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L72",
-      "weight": 1.0,
       "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L228",
+      "weight": 1.0,
       "_origin": "ast",
-      "_src": "main_1_cpp_string",
-      "_tgt": "main_1_promptforbet"
+      "_src": "casino_cli_main",
+      "_tgt": "casino_cli_py_random"
     },
     {
-      "source": "main_1_cpp_string",
-      "target": "main_1_promptforinteger",
+      "source": "eoferror",
+      "target": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "_tgt": "eoferror"
+    },
+    {
+      "source": "keyboardinterrupt",
+      "target": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "_tgt": "keyboardinterrupt"
+    },
+    {
+      "source": "tests_test_cli_py_parametrize",
+      "target": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L42",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L145",
       "weight": 1.0,
-      "context": "parameter_type",
+      "context": "decorator",
       "_origin": "ast",
-      "_src": "main_1_cpp_string",
-      "_tgt": "main_1_promptforinteger"
+      "_src": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "_tgt": "tests_test_cli_py_parametrize"
+    },
+    {
+      "source": "tests_test_cli_py_parametrize",
+      "target": "tests_test_cli_test_integer_parser_accepts_only_valid_ascii_signed32_forms",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_cli_test_integer_parser_accepts_only_valid_ascii_signed32_forms",
+      "_tgt": "tests_test_cli_py_parametrize"
+    },
+    {
+      "source": "tests_test_cli_py_parametrize",
+      "target": "tests_test_cli_test_integer_parser_rejects_malformed_unicode_and_overflow_lines",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_cli_test_integer_parser_rejects_malformed_unicode_and_overflow_lines",
+      "_tgt": "tests_test_cli_py_parametrize"
+    },
+    {
+      "source": "tests_test_cli_py_parametrize",
+      "target": "tests_test_cli_test_low_balance_stops_without_continuation_prompt",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_cli_test_low_balance_stops_without_continuation_prompt",
+      "_tgt": "tests_test_cli_py_parametrize"
+    },
+    {
+      "source": "capturefixture",
+      "target": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "_tgt": "capturefixture"
+    },
+    {
+      "source": "tests_test_game_py_parametrize",
+      "target": "tests_test_game_test_continuation_requires_at_least_one_minimum_stake",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_game_test_continuation_requires_at_least_one_minimum_stake",
+      "_tgt": "tests_test_game_py_parametrize"
+    },
+    {
+      "source": "tests_test_game_py_parametrize",
+      "target": "tests_test_game_test_losing_round_deducts_only_the_stake",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_game_test_losing_round_deducts_only_the_stake",
+      "_tgt": "tests_test_game_py_parametrize"
+    },
+    {
+      "source": "tests_test_game_py_parametrize",
+      "target": "tests_test_game_test_round_rejects_invalid_stakes_and_numbers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_game_test_round_rejects_invalid_stakes_and_numbers",
+      "_tgt": "tests_test_game_py_parametrize"
+    },
+    {
+      "source": "tests_test_game_py_parametrize",
+      "target": "tests_test_game_test_winning_round_preserves_stake_and_adds_full_credit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_game_test_winning_round_preserves_stake_and_adds_full_credit",
+      "_tgt": "tests_test_game_py_parametrize"
+    },
+    {
+      "source": "tests_test_game_py_parametrize",
+      "target": "tests_test_game_test_winnings_credit_ten_times_stake_without_overflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_game_test_winnings_credit_ten_times_stake_without_overflow",
+      "_tgt": "tests_test_game_py_parametrize"
+    },
+    {
+      "source": "tests_test_game_py_parametrize",
+      "target": "tests_test_game_test_winnings_reject_below_minimum_stakes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_game_test_winnings_reject_below_minimum_stakes",
+      "_tgt": "tests_test_game_py_parametrize"
+    },
+    {
+      "source": "tests_test_terminal_py_parametrize",
+      "target": "tests_test_terminal_test_real_eof_terminates_at_each_session_stage",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_terminal_test_real_eof_terminates_at_each_session_stage",
+      "_tgt": "tests_test_terminal_py_parametrize"
+    },
+    {
+      "source": "tests_test_terminal_py_parametrize",
+      "target": "tests_test_terminal_test_real_session_validates_input_and_settles_multiple_random_rounds",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "tests_test_terminal_test_real_session_validates_input_and_settles_multiple_random_rounds",
+      "_tgt": "tests_test_terminal_py_parametrize"
     }
   ],
   "metadata": {
-    "built_at": "2026-11-18T11:11:50.647012+00:00",
+    "built_at": "2026-11-18T11:13:11.627598+00:00",
     "version": "graph_update-v1",
     "codebase_root": "/data/artifacts-v2/T0132PcJVCRTV003518112610481899/developer",
     "force": true,
-    "files_scanned": 11
+    "files_scanned": 10
   }
 }
