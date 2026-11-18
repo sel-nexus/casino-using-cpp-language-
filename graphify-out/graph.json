@@ -64,6 +64,377 @@
       "_origin": "ast"
     },
     {
+      "id": "casino_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "casino/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_init_rationale_1",
+      "label": "Expose terminal-independent casino rules for callers.",
+      "file_type": "rationale",
+      "source_file": "casino/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_main",
+      "label": "__main__.py",
+      "file_type": "code",
+      "source_file": "casino/__main__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_main_rationale_1",
+      "label": "Launch the casino session with python -m casino.",
+      "file_type": "rationale",
+      "source_file": "casino/__main__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli",
+      "label": "cli.py",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_parse_integer",
+      "label": "parse_integer()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_write_stdout",
+      "label": "write_stdout()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L45",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_terminal",
+      "label": "Terminal",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L55",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_terminal_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L58",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_terminal_prompt",
+      "label": ".prompt()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L70",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_terminal_integer",
+      "label": ".integer()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L86",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_terminal_deposit",
+      "label": ".deposit()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L105",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_terminal_bet",
+      "label": ".bet()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L121",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_terminal_guess",
+      "label": ".guess()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L144",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_terminal_continue_playing",
+      "label": ".continue_playing()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L160",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_play_game",
+      "label": "play_game()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L179",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_py_random",
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "casino/cli.py",
+      "source_location": "L228",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_1",
+      "label": "Run the baseline casino session with clean terminal termination.",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_24",
+      "label": "Parse the strict ASCII signed-32-bit input accepted by the baseline. Args:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_46",
+      "label": "Write session text immediately, including prompts without newlines. Args: text:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_56",
+      "label": "Collect validated session input using injectable terminal boundaries.",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_61",
+      "label": "Bind input and output without owning external resources. Args: read: Read one\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L61",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_71",
+      "label": "Display a prompt and read its untrimmed response. Args: message: Prompt to\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L71",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_87",
+      "label": "Retry malformed integer input until a valid line is supplied. Args: message:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L87",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_106",
+      "label": "Request enough starting money for at least one round. Returns: A starting\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L106",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_122",
+      "label": "Request an affordable stake, preserving validation precedence. Args: balance:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L122",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_145",
+      "label": "Request a number within the inclusive guessing range. Returns: A guess from 1\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L145",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_161",
+      "label": "Request a single ASCII y or n, accepting either letter case. Returns: Whether\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L161",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_180",
+      "label": "Play repeated rounds with the exact baseline prompts and messages. Args:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L180",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_cli_rationale_233",
+      "label": "Run one session and turn EOF or interruption into a friendly exit. Args: read:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/cli.py",
+      "source_location": "L233",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game",
+      "label": "game.py",
+      "file_type": "code",
+      "source_file": "casino/game.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_roundoutcome",
+      "label": "RoundOutcome",
+      "file_type": "code",
+      "source_file": "casino/game.py",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_calculate_winnings",
+      "label": "calculate_winnings()",
+      "file_type": "code",
+      "source_file": "casino/game.py",
+      "source_location": "L24",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_can_continue_with_balance",
+      "label": "can_continue_with_balance()",
+      "file_type": "code",
+      "source_file": "casino/game.py",
+      "source_location": "L41",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_resolve_round",
+      "label": "resolve_round()",
+      "file_type": "code",
+      "source_file": "casino/game.py",
+      "source_location": "L53",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_generate_secret_number",
+      "label": "generate_secret_number()",
+      "file_type": "code",
+      "source_file": "casino/game.py",
+      "source_location": "L80",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_py_random",
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_rationale_1",
+      "label": "Apply casino rules independently of terminal input and output.",
+      "file_type": "rationale",
+      "source_file": "casino/game.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_rationale_9",
+      "label": "Describe a settled round without allowing subsequent mutation. Attributes: won:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/game.py",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_rationale_25",
+      "label": "Calculate the amount credited for a winning valid stake. Args: bet_amount:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/game.py",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_rationale_42",
+      "label": "Check whether the available money permits another round. Args: balance: Money\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/game.py",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_rationale_56",
+      "label": "Settle a valid round without mutating its starting balance. Args: balance:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/game.py",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "casino_game_rationale_81",
+      "label": "Draw a uniformly distributed number from the inclusive range 1..10. Args:\u2026",
+      "file_type": "rationale",
+      "source_file": "casino/game.py",
+      "source_location": "L81",
+      "_origin": "ast"
+    },
+    {
       "id": "main_1",
       "label": "main (1).cpp",
       "file_type": "code",
@@ -250,6 +621,578 @@
       "community": 0
     },
     {
+      "id": "main",
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "main_rationale_1",
+      "label": "Launch the casino session from the repository's root script.",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli",
+      "label": "test_cli.py",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_session",
+      "label": "session()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "eoferror",
+      "label": "EOFError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "keyboardinterrupt",
+      "label": "KeyboardInterrupt",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_session_read",
+      "label": "read()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L34",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_py_parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_integer_parser_accepts_only_valid_ascii_signed32_forms",
+      "label": "test_integer_parser_accepts_only_valid_ascii_signed32_forms()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L50",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_integer_parser_rejects_malformed_unicode_and_overflow_lines",
+      "label": "test_integer_parser_rejects_malformed_unicode_and_overflow_lines()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L60",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_full_win_session_matches_baseline_exactly",
+      "label": "test_full_win_session_matches_baseline_exactly()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L65",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_full_loss_session_matches_baseline_exactly",
+      "label": "test_full_loss_session_matches_baseline_exactly()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L78",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_session_retries_every_validation_branch_and_preserves_name_spaces",
+      "label": "test_session_retries_every_validation_branch_and_preserves_name_spaces()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L91",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_whitespace_only_name_is_nonempty_and_accepted",
+      "label": "test_whitespace_only_name_is_nonempty_and_accepted()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L109",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_multiple_rounds_use_updated_balance_and_case_insensitive_yes",
+      "label": "test_multiple_rounds_use_updated_balance_and_case_insensitive_yes()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L117",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_low_balance_stops_without_continuation_prompt",
+      "label": "test_low_balance_stops_without_continuation_prompt()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L129",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_maximum_input_win_uses_arbitrary_precision_balance",
+      "label": "test_maximum_input_win_uses_arbitrary_precision_balance()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L137",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "label": "test_eof_and_interruption_exit_cleanly_at_every_prompt()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L162",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed",
+      "label": "test_unexpected_input_failure_is_not_silently_swallowed()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L169",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed_fail",
+      "label": "fail()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L171",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_default_stdout_writer_emits_without_extra_newline",
+      "label": "test_default_stdout_writer_emits_without_extra_newline()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L179",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "capturefixture",
+      "label": "CaptureFixture",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "label": "test_default_input_boundary_handles_eof()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L187",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "monkeypatch",
+      "label": "MonkeyPatch",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_test_default_input_boundary_handles_eof_eof",
+      "label": "eof()",
+      "file_type": "code",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L189",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_1",
+      "label": "Lock down exact terminal text, input validation, and clean exit branches.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_21",
+      "label": "Run a real session with deterministic input and random draws. Args: lines:\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_51",
+      "label": "Accept baseline signs, leading whitespace, zeros, and boundaries.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_61",
+      "label": "Reject trailing input, non-ASCII digits, and signed32 overflow.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L61",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_66",
+      "label": "Preserve every prompt, blank line, and winning payout message.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L66",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_79",
+      "label": "Reveal the actual secret and deduct the losing stake.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L79",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_92",
+      "label": "Retry empty names, syntax, limits, and invalid continuation responses.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L92",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_110",
+      "label": "Keep the baseline's nonempty rather than nonblank name rule.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L110",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_118",
+      "label": "Carry a loss at the threshold into a win and then another loss.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L118",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_130",
+      "label": "Stop immediately when a loss leaves less than the minimum.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L130",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_138",
+      "label": "Avoid fixed-width overflow when a maximum signed32 stake wins.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L138",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_163",
+      "label": "Terminate both initial and retry prompts instead of looping.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L163",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_170",
+      "label": "Allow programming or I/O failures other than friendly exits to surface.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L170",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_180",
+      "label": "Flush the exact supplied text to the production output boundary.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L180",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_cli_rationale_188",
+      "label": "Resolve the production input function at launch and catch EOF.",
+      "file_type": "rationale",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L188",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game",
+      "label": "test_game.py",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_py_parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_test_winnings_credit_ten_times_stake_without_overflow",
+      "label": "test_winnings_credit_ten_times_stake_without_overflow()",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_test_winnings_reject_below_minimum_stakes",
+      "label": "test_winnings_reject_below_minimum_stakes()",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_test_continuation_requires_at_least_one_minimum_stake",
+      "label": "test_continuation_requires_at_least_one_minimum_stake()",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L28",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_test_winning_round_preserves_stake_and_adds_full_credit",
+      "label": "test_winning_round_preserves_stake_and_adds_full_credit()",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L34",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_test_losing_round_deducts_only_the_stake",
+      "label": "test_losing_round_deducts_only_the_stake()",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L46",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_test_round_rejects_invalid_stakes_and_numbers",
+      "label": "test_round_rejects_invalid_stakes_and_numbers()",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L63",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_test_seeded_random_source_is_repeatable_and_covers_endpoints",
+      "label": "test_seeded_random_source_is_repeatable_and_covers_endpoints()",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L69",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_test_production_random_source_stays_in_range",
+      "label": "test_production_random_source_stays_in_range()",
+      "file_type": "code",
+      "source_file": "tests/test_game.py",
+      "source_location": "L78",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_1",
+      "label": "Verify settlement, minimum stakes, and production random boundaries.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_16",
+      "label": "Credit the full multiplier even beyond signed integer capacity.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_22",
+      "label": "Reject a stake that cannot start a round.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_29",
+      "label": "Allow exactly the minimum and reject smaller balances.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_35",
+      "label": "Settle a win without first subtracting its stake.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L35",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_47",
+      "label": "Settle losses including exhausted and threshold balances.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L47",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_64",
+      "label": "Reject each violated rule before settlement.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_70",
+      "label": "Draw reproducibly within the full inclusive number range.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L70",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_game_rationale_79",
+      "label": "Exercise the default random source without requiring a specific draw.",
+      "file_type": "rationale",
+      "source_file": "tests/test_game.py",
+      "source_location": "L79",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal",
+      "label": "test_terminal.py",
+      "file_type": "code",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal_run_terminal",
+      "label": "run_terminal()",
+      "file_type": "code",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal_py_parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal_test_real_session_validates_input_and_settles_multiple_random_rounds",
+      "label": "test_real_session_validates_input_and_settles_multiple_random_rounds()",
+      "file_type": "code",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L37",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal_test_real_eof_terminates_at_each_session_stage",
+      "label": "test_real_eof_terminates_at_each_session_stage()",
+      "file_type": "code",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L95",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal_rationale_1",
+      "label": "Specify real subprocess journeys; execute only after test-critic approval.",
+      "file_type": "rationale",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal_rationale_15",
+      "label": "Launch an unmodified application and close stdin after the responses. Args:\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal_rationale_38",
+      "label": "Verify actual random outcomes and carried balances through both adapters.",
+      "file_type": "rationale",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_terminal_rationale_96",
+      "label": "Close real stdin at each stage and reject looping or tracebacks.",
+      "file_type": "rationale",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L96",
+      "_origin": "ast"
+    },
+    {
       "id": "tests",
       "label": "tests.cpp",
       "file_type": "code",
@@ -396,6 +1339,606 @@
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
       "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_init",
+      "target": "casino_game",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_init_rationale_1",
+      "target": "casino_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_main",
+      "target": "casino_cli",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__main__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_main_rationale_1",
+      "target": "casino_main",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__main__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_cli_py_random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_game",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_cli_parse_integer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_cli_write_stdout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_cli_terminal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal",
+      "target": "casino_cli_terminal_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal",
+      "target": "casino_cli_terminal_prompt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal",
+      "target": "casino_cli_terminal_integer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal",
+      "target": "casino_cli_terminal_deposit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal",
+      "target": "casino_cli_terminal_bet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal",
+      "target": "casino_cli_terminal_guess",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal",
+      "target": "casino_cli_terminal_continue_playing",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_cli_play_game",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_cli_terminal",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_cli_py_random",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_cli_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L228",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_main",
+      "target": "casino_cli_py_random",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L228",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal_integer",
+      "target": "casino_cli_parse_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal_integer",
+      "target": "casino_cli_terminal_prompt",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal_deposit",
+      "target": "casino_cli_terminal_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal_bet",
+      "target": "casino_cli_terminal_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal_guess",
+      "target": "casino_cli_terminal_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L155",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal_continue_playing",
+      "target": "casino_cli_terminal_prompt",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_main",
+      "target": "casino_cli_terminal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L243",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_main",
+      "target": "casino_cli_play_game",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L249",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_1",
+      "target": "casino_cli",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_24",
+      "target": "casino_cli_parse_integer",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_46",
+      "target": "casino_cli_write_stdout",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_56",
+      "target": "casino_cli_terminal",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_61",
+      "target": "casino_cli_terminal_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_71",
+      "target": "casino_cli_terminal_prompt",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_87",
+      "target": "casino_cli_terminal_integer",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_106",
+      "target": "casino_cli_terminal_deposit",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_122",
+      "target": "casino_cli_terminal_bet",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_145",
+      "target": "casino_cli_terminal_guess",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_161",
+      "target": "casino_cli_terminal_continue_playing",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L161",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_180",
+      "target": "casino_cli_play_game",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L180",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_rationale_233",
+      "target": "casino_cli_main",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L233",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game",
+      "target": "casino_game_py_random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game",
+      "target": "casino_game_roundoutcome",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game",
+      "target": "casino_game_calculate_winnings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game",
+      "target": "casino_game_can_continue_with_balance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game",
+      "target": "casino_game_resolve_round",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_resolve_round",
+      "target": "casino_game_roundoutcome",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game",
+      "target": "casino_game_generate_secret_number",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_generate_secret_number",
+      "target": "casino_game_py_random",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_resolve_round",
+      "target": "casino_game_calculate_winnings",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_resolve_round",
+      "target": "casino_game_roundoutcome",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_rationale_1",
+      "target": "casino_game",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_rationale_9",
+      "target": "casino_game_roundoutcome",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_rationale_25",
+      "target": "casino_game_calculate_winnings",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_rationale_42",
+      "target": "casino_game_can_continue_with_balance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_rationale_56",
+      "target": "casino_game_resolve_round",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_game_rationale_81",
+      "target": "casino_game_generate_secret_number",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/game.py",
+      "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -815,6 +2358,1008 @@
       "_origin": "ast"
     },
     {
+      "source": "main",
+      "target": "casino_cli",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main_rationale_1",
+      "target": "main",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "casino_cli",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_session",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_session",
+      "target": "eoferror",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_session",
+      "target": "keyboardinterrupt",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_session",
+      "target": "tests_test_cli_session_read",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_integer_parser_accepts_only_valid_ascii_signed32_forms",
+      "target": "tests_test_cli_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_integer_parser_accepts_only_valid_ascii_signed32_forms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_integer_parser_rejects_malformed_unicode_and_overflow_lines",
+      "target": "tests_test_cli_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_integer_parser_rejects_malformed_unicode_and_overflow_lines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_full_win_session_matches_baseline_exactly",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_full_loss_session_matches_baseline_exactly",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_session_retries_every_validation_branch_and_preserves_name_spaces",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_whitespace_only_name_is_nonempty_and_accepted",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_multiple_rounds_use_updated_balance_and_case_insensitive_yes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_low_balance_stops_without_continuation_prompt",
+      "target": "tests_test_cli_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_low_balance_stops_without_continuation_prompt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_maximum_input_win_uses_arbitrary_precision_balance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "target": "tests_test_cli_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "target": "tests_test_cli_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "target": "eoferror",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "target": "keyboardinterrupt",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L169",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed",
+      "target": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed_fail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_default_stdout_writer_emits_without_extra_newline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_stdout_writer_emits_without_extra_newline",
+      "target": "capturefixture",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_stdout_writer_emits_without_extra_newline",
+      "target": "capturefixture",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "target": "capturefixture",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "target": "capturefixture",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "target": "tests_test_cli_test_default_input_boundary_handles_eof_eof",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_session",
+      "target": "tests_test_cli_session_read",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/test_cli.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_full_win_session_matches_baseline_exactly",
+      "target": "tests_test_cli_session",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_full_loss_session_matches_baseline_exactly",
+      "target": "tests_test_cli_session",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_session_retries_every_validation_branch_and_preserves_name_spaces",
+      "target": "tests_test_cli_session",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_whitespace_only_name_is_nonempty_and_accepted",
+      "target": "tests_test_cli_session",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_multiple_rounds_use_updated_balance_and_case_insensitive_yes",
+      "target": "tests_test_cli_session",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_low_balance_stops_without_continuation_prompt",
+      "target": "tests_test_cli_session",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_maximum_input_win_uses_arbitrary_precision_balance",
+      "target": "tests_test_cli_session",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "target": "tests_test_cli_session",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed",
+      "target": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed_fail",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/test_cli.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "target": "tests_test_cli_test_default_input_boundary_handles_eof_eof",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/test_cli.py",
+      "source_location": "L193",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_1",
+      "target": "tests_test_cli",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_21",
+      "target": "tests_test_cli_session",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_51",
+      "target": "tests_test_cli_test_integer_parser_accepts_only_valid_ascii_signed32_forms",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_61",
+      "target": "tests_test_cli_test_integer_parser_rejects_malformed_unicode_and_overflow_lines",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_66",
+      "target": "tests_test_cli_test_full_win_session_matches_baseline_exactly",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_79",
+      "target": "tests_test_cli_test_full_loss_session_matches_baseline_exactly",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_92",
+      "target": "tests_test_cli_test_session_retries_every_validation_branch_and_preserves_name_spaces",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_110",
+      "target": "tests_test_cli_test_whitespace_only_name_is_nonempty_and_accepted",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_118",
+      "target": "tests_test_cli_test_multiple_rounds_use_updated_balance_and_case_insensitive_yes",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_130",
+      "target": "tests_test_cli_test_low_balance_stops_without_continuation_prompt",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_138",
+      "target": "tests_test_cli_test_maximum_input_win_uses_arbitrary_precision_balance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_163",
+      "target": "tests_test_cli_test_eof_and_interruption_exit_cleanly_at_every_prompt",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_170",
+      "target": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L170",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_180",
+      "target": "tests_test_cli_test_default_stdout_writer_emits_without_extra_newline",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L180",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_rationale_188",
+      "target": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L188",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "casino_game",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_winnings_credit_ten_times_stake_without_overflow",
+      "target": "tests_test_game_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "tests_test_game_test_winnings_credit_ten_times_stake_without_overflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_winnings_reject_below_minimum_stakes",
+      "target": "tests_test_game_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "tests_test_game_test_winnings_reject_below_minimum_stakes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_continuation_requires_at_least_one_minimum_stake",
+      "target": "tests_test_game_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "tests_test_game_test_continuation_requires_at_least_one_minimum_stake",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_winning_round_preserves_stake_and_adds_full_credit",
+      "target": "tests_test_game_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "tests_test_game_test_winning_round_preserves_stake_and_adds_full_credit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_losing_round_deducts_only_the_stake",
+      "target": "tests_test_game_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "tests_test_game_test_losing_round_deducts_only_the_stake",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_round_rejects_invalid_stakes_and_numbers",
+      "target": "tests_test_game_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "tests_test_game_test_round_rejects_invalid_stakes_and_numbers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "tests_test_game_test_seeded_random_source_is_repeatable_and_covers_endpoints",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "tests_test_game_test_production_random_source_stays_in_range",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_1",
+      "target": "tests_test_game",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_16",
+      "target": "tests_test_game_test_winnings_credit_ten_times_stake_without_overflow",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_22",
+      "target": "tests_test_game_test_winnings_reject_below_minimum_stakes",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_29",
+      "target": "tests_test_game_test_continuation_requires_at_least_one_minimum_stake",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_35",
+      "target": "tests_test_game_test_winning_round_preserves_stake_and_adds_full_credit",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_47",
+      "target": "tests_test_game_test_losing_round_deducts_only_the_stake",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_64",
+      "target": "tests_test_game_test_round_rejects_invalid_stakes_and_numbers",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_70",
+      "target": "tests_test_game_test_seeded_random_source_is_repeatable_and_covers_endpoints",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_rationale_79",
+      "target": "tests_test_game_test_production_random_source_stays_in_range",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal",
+      "target": "tests_test_terminal_run_terminal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_test_real_session_validates_input_and_settles_multiple_random_rounds",
+      "target": "tests_test_terminal_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal",
+      "target": "tests_test_terminal_test_real_session_validates_input_and_settles_multiple_random_rounds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_test_real_eof_terminates_at_each_session_stage",
+      "target": "tests_test_terminal_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_test_real_eof_terminates_at_each_session_stage",
+      "target": "tests_test_terminal_py_parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal",
+      "target": "tests_test_terminal_test_real_eof_terminates_at_each_session_stage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_test_real_session_validates_input_and_settles_multiple_random_rounds",
+      "target": "tests_test_terminal_run_terminal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_test_real_eof_terminates_at_each_session_stage",
+      "target": "tests_test_terminal_run_terminal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_rationale_1",
+      "target": "tests_test_terminal",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_rationale_15",
+      "target": "tests_test_terminal_run_terminal",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_rationale_38",
+      "target": "tests_test_terminal_test_real_session_validates_input_and_settles_multiple_random_rounds",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_terminal_rationale_96",
+      "target": "tests_test_terminal_test_real_eof_terminates_at_each_session_stage",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_terminal.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "tests",
       "target": "main_1",
       "relation": "imports",
@@ -1060,6 +3605,471 @@
       "_origin": "ast"
     },
     {
+      "source": "casino_init",
+      "target": "casino_game",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_init",
+      "target": "casino_game_roundoutcome",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_init",
+      "target": "casino_game_calculate_winnings",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_init",
+      "target": "casino_game_can_continue_with_balance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_init",
+      "target": "casino_game_generate_secret_number",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_init",
+      "target": "casino_game_resolve_round",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_main",
+      "target": "casino_cli_main",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/__main__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_game_can_continue_with_balance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_game_generate_secret_number",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli",
+      "target": "casino_game_resolve_round",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "casino_cli_main",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "casino_cli_main",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "casino_cli_parse_integer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "casino_cli_write_stdout",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "casino_game_calculate_winnings",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "casino_game_can_continue_with_balance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "casino_game_generate_secret_number",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game",
+      "target": "casino_game_resolve_round",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_game_can_continue_with_balance",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_game_generate_secret_number",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L200",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_game_resolve_round",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "casino/cli.py",
+      "source_location": "L203",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_session",
+      "target": "casino_cli_main",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_unexpected_input_failure_is_not_silently_swallowed",
+      "target": "casino_cli_main",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_stdout_writer_emits_without_extra_newline",
+      "target": "casino_cli_write_stdout",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_default_input_boundary_handles_eof",
+      "target": "casino_cli_main",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L194",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_seeded_random_source_is_repeatable_and_covers_endpoints",
+      "target": "casino_game_generate_secret_number",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_production_random_source_stays_in_range",
+      "target": "casino_game_generate_secret_number",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_game.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_terminal_deposit",
+      "target": "casino_game_can_continue_with_balance",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "casino/cli.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_integer_parser_accepts_only_valid_ascii_signed32_forms",
+      "target": "casino_cli_parse_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_cli.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_cli_test_integer_parser_rejects_malformed_unicode_and_overflow_lines",
+      "target": "casino_cli_parse_integer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_cli.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_winnings_credit_ten_times_stake_without_overflow",
+      "target": "casino_game_calculate_winnings",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_game.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_winnings_reject_below_minimum_stakes",
+      "target": "casino_game_calculate_winnings",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_game.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_continuation_requires_at_least_one_minimum_stake",
+      "target": "casino_game_can_continue_with_balance",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_game.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_winning_round_preserves_stake_and_adds_full_credit",
+      "target": "casino_game_resolve_round",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_game.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_losing_round_deducts_only_the_stake",
+      "target": "casino_game_resolve_round",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_game.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_game_test_round_rejects_invalid_stakes_and_numbers",
+      "target": "casino_game_resolve_round",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_game.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_cli_terminal_prompt",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "casino/cli.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_cli_terminal_deposit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "casino/cli.py",
+      "source_location": "L195",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_cli_terminal_bet",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "casino/cli.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_cli_terminal_guess",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "casino/cli.py",
+      "source_location": "L201",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "casino_cli_play_game",
+      "target": "casino_cli_terminal_continue_playing",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "casino/cli.py",
+      "source_location": "L222",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "main_1_roundoutcome",
       "target": "main_1_resolveround",
       "relation": "references",
@@ -1100,10 +4110,10 @@
     }
   ],
   "metadata": {
-    "built_at": "2026-11-18T11:04:26.038290+00:00",
+    "built_at": "2026-11-18T11:11:50.647012+00:00",
     "version": "graph_update-v1",
     "codebase_root": "/data/artifacts-v2/T0132PcJVCRTV003518112610481899/developer",
     "force": true,
-    "files_scanned": 3
+    "files_scanned": 11
   }
 }
