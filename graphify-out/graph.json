@@ -4,6 +4,7 @@
       "id": "changelog",
       "label": "CHANGELOG.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "CHANGELOG.md",
       "source_location": "L1",
       "_origin": "ast"
@@ -12,6 +13,7 @@
       "id": "changelog_changelog",
       "label": "Changelog",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "CHANGELOG.md",
       "source_location": "L1",
       "_origin": "ast"
@@ -20,6 +22,7 @@
       "id": "changelog_test_43",
       "label": "test 43",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "CHANGELOG.md",
       "source_location": "L3",
       "_origin": "ast"
@@ -28,6 +31,7 @@
       "id": "changelog_changed",
       "label": "Changed",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "CHANGELOG.md",
       "source_location": "L5",
       "_origin": "ast"
@@ -36,6 +40,7 @@
       "id": "changelog_added",
       "label": "Added",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "CHANGELOG.md",
       "source_location": "L10",
       "_origin": "ast"
@@ -44,6 +49,7 @@
       "id": "changelog_verification",
       "label": "Verification",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "CHANGELOG.md",
       "source_location": "L14",
       "_origin": "ast"
@@ -52,6 +58,7 @@
       "id": "changelog_notes",
       "label": "Notes",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "CHANGELOG.md",
       "source_location": "L19",
       "_origin": "ast"
@@ -527,17 +534,6 @@
       "source_file": "main (1).cpp",
       "source_location": "L42",
       "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "main_1_promptforinteger",
-      "target": "main_1_cpp_string",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "main (1).cpp",
-      "source_location": "L42",
-      "weight": 1.0,
-      "context": "parameter_type",
       "_origin": "ast"
     },
     {
@@ -1086,8 +1082,8 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
-      "_src": "main_1_promptforbet",
-      "_tgt": "main_1_cpp_string"
+      "_src": "main_1_cpp_string",
+      "_tgt": "main_1_promptforbet"
     },
     {
       "source": "main_1_cpp_string",
@@ -1099,14 +1095,14 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
-      "_src": "main_1_promptforinteger",
-      "_tgt": "main_1_cpp_string"
+      "_src": "main_1_cpp_string",
+      "_tgt": "main_1_promptforinteger"
     }
   ],
   "metadata": {
-    "built_at": "2026-09-30T11:08:04.758618+00:00",
+    "built_at": "2026-11-18T11:04:26.038290+00:00",
     "version": "graph_update-v1",
-    "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000430092611020821\\developer",
+    "codebase_root": "/data/artifacts-v2/T0132PcJVCRTV003518112610481899/developer",
     "force": true,
     "files_scanned": 3
   }
